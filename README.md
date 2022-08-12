@@ -1,2 +1,4 @@
-# hsjobfair-front
-2022 고졸성공 취업대박람회
+# HS Jobfair Webpage
+
+## ☝ Description
+This webpage is the App:ple Pi download webpage for the 2022 High School Graduation Job Fair.
