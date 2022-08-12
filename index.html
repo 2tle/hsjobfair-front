@@ -18,6 +18,23 @@
         <script src="public/js/fullpage/easing.js"></script>
         <script src="public/js/fullpage/fullpage.js"></script>
         <script src="public/js/main.js"></script>
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js";
+
+            const firebaseConfig = {
+                apiKey: "AIzaSyBh2gW9hT7MhAoRrnGPba_f4J_3xCB2x94",
+                authDomain: "appplepi-hsjobfair.firebaseapp.com",
+                projectId: "appplepi-hsjobfair",
+                storageBucket: "appplepi-hsjobfair.appspot.com",
+                messagingSenderId: "462620723726",
+                appId: "1:462620723726:web:8ef5b9dd303fc558838a5f",
+                measurementId: "G-CK06SR2CWR"
+            };
+
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+        </script>
     </div>
 </body>
 </html>
