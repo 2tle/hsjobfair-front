@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+#intro {
+    background-color: rgb(183,91,86);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+#intro>div.wrap {
+    text-align: center;
+}
+
+#intro>div.wrap>h1 {
+    text-shadow: 2px 2px 6px gray;
+}
