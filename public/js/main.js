@@ -1,3 +1,5 @@
+import fullpage from "./fullpage/fullpage";
+
 new fullpage('#fullpage', {
     // 이동
     menu: '#menu',
