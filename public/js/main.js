@@ -1,6 +1,7 @@
 import fullpage from "./fullpage/fullpage";
 
-new fullpage('#fullpage', {
+let myfullpage = new fullpage('#fullpage', {
+    licenseKey: null,
     // 이동
     menu: '#menu',
     lockAnchors: false,
