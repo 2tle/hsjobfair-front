@@ -1,11 +1,24 @@
 body {
     text-align: center;
+    background-color: rgb(183,91,86);
 }
+
+.nanum {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.regular {
+    font-weight: 400;
+}
+.bold {
+    font-weight: 700;
+}
+
 .section {
     height: 100vh;
 }
 #intro {
-    background-color: rgb(183,91,86);
+
     height: 100vh;
     display: flex;
     align-items: center;
@@ -17,5 +30,4 @@ body {
 }
 
 #intro>div.wrap>h1 {
-    text-shadow: 2px 2px 6px gray;
 }
